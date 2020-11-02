@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Account SanberBook</title>
+</head>
+<body>
+    <header>
+        <h1>Buat Account Baru!</h1>
+    </header>
+    <Main>
+        <h3>Sign Up Form</h3>
+        <!-- Input Nama-->
+        <form>
+            <label for="firstname"><p>First Name:</p></label>
+            <input type="text"><br>
+            <label for="lastname"><p>Last Name:</p></label>
+            <input type="text">
+        
+        <br><br>
+        <!-- Input Gender -->
+        
+            <label for="gender">Gender:</label><br><br>
+
+            <input type="radio" name="male" id="radio-male">
+            <label for="radio-male">Male</label><br>
+
+            <input type="radio" name="female" id="radio-female">
+            <label for="radio-female">Female</label><br>
+
+            <input type="radio" name="other" id="radio-other">
+            <label for="radio-other">Other</label>
+        
+        <br><br>
+
+        <!-- Input Status Warganegara -->
+        
+            <label for="nationality">Nationality:</label><br><br>
+
+            <select name="nationality" id="nationality">
+                <option value="indo">Indonesian</option>
+                <option value="sg">Singapore</option>
+                <option value="my">Malaysian</option>
+                <option value="aus">Australian</option>
+            </select>
+        
+        <br><br>
+
+        <!-- Bahasa -->
+        
+            <label for="lang">Language Spoken:</label><br><br>
+
+            <input type="checkbox" name="indo" id="bhsindo">
+            <label for="bhsindo">Bahasa Indonesia</label><br>
+
+            <input type="checkbox" name="english" id="english">
+            <label for="en">English</label><br>
+
+            <input type="checkbox" name="other" id="other-lang">
+            <label for="other-lang">Other</label>
+            
+            <br><br>
+
+        <!-- Bio -->
+            <label>Bio:</label><br><br>
+
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br>
+
+            <a href="welcome.html"><button type="button">Sign Up</button></a>
+        </form>
+    </Main>
+</body>
+</html>
